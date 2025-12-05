@@ -17,6 +17,7 @@ module.exports = {
         venv: "env",
         path: "app",
         message: [
+          "uv pip install gradio==5.50.0",
           "uv pip install -e ."
         ]
       }
